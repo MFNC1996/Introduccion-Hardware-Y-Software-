@@ -1,0 +1,16 @@
+Proceso sin_titulo
+	Escribir "ingrese presupuesto anual";
+	Leer presupuesto;
+	kine<-0.2;
+	gine<-0.25;
+	trau<-0.3;
+	pedia<-0.25;
+	presu_kine<-presupuesto*kine;
+	presu_gine<-presupuesto*gine;
+	presu_trau<-presupuesto*trau;
+	presu_pedia<-presupuesto*pedia;
+	Escribir "presupuesto para kinesiologia:","$",presu_kine;
+	Escribir "presupuesto para ginecologia:","$",presu_gine;
+	Escribir "presupuesto para traumatologia:","$",presu_trau;
+	Escribir "presupuesto para pediatria:","$",presu_pedia;
+FinProceso

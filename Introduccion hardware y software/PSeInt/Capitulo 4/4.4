@@ -1,0 +1,59 @@
+Proceso cap4_4
+	Escribir "Ingrese Horas trabajadas";
+	leer horas;
+	Escribir "ingrese grado";
+	leer grado;
+	Escribir "ingrese AFP";
+	leer afp;
+	Escribir "Ingrese Isapre";
+	leer isapre;
+	Si(horas>=1 Y horas<=3)Entonces
+		hora1<-(horas*2000);
+	Sino
+		Si (horas>=4 Y horas<=7)Entonces
+			horas2<-(horas*3000);
+		Sino
+			Si(horas<7)Entonces
+				hora3<-(horas*3500);
+			FinSi			
+		FinSi		
+	FinSi
+	Si (Grado=1) Entonces
+		grado1<- 450000;
+	Sino
+		Si (grado=2) Entonces
+			grado2<- 550000;
+		Sino
+			Si (grado=3)Entonces
+				Grado3<-700000;
+			FinSi
+		FinSi
+	FinSi
+	Si (isapre=1)Entonces
+		isapre1<-6.5*(1/100);
+	Sino
+		Si(isapre=2) Entonces
+			isapre2<-7.3*(1/100);
+		Sino
+			Si (isapre=3 Y isapre=4) Entonces
+				isapre3_4<-0.7;
+			FinSi
+		FinSi
+		Si (afp=1) Entonces
+			afp1<-0.12;
+		Sino
+			Si (afp=2) Entonces
+				afp2<-13.4*(1/100);
+			Sino
+				Si (afp=3)Entonces
+					afp3<-12.3*(1/100);
+				Sino
+					Si (afp=4) Entonces
+						afp4<-12.9*(1/100);
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	
+FinProceso

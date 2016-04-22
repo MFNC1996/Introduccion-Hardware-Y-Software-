@@ -1,0 +1,11 @@
+Proceso sin_titulo
+	Escribir "ingrese: calificaciones parciales, promedio de talleres, promedio de tareas y exposicion";
+	Leer calif,prom_tall,prom_tar,expo;
+	cien_por_ciento<-7.0;
+	calif_parc<-(calif*0.5);
+	promedi_tall<-prom_tall*0.25;
+	tareas<-prom_tar*0.15;
+	exposi<-expo*0.1;
+	total<-(calif_parc+promedi_tall+tareas+exposi);
+	Escribir "promedio total es:",total;
+FinProceso

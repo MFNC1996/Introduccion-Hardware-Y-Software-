@@ -1,0 +1,13 @@
+Proceso sin_titulo
+	Escribir "ingrese numero de reprobados,aprobados,notables y sobresalientes";
+	Leer rep,apr,not,sob;
+	cant_alum<-(rep+apr+not+sob);
+	repro<-trunc((rep*100)/cant_alum);
+	apro<-trunc((apr*100)/cant_alum);
+	nota<-trunc((not*100)/cant_alum);
+	sobre<-trunc((sob*100)/cant_alum);
+	Escribir "porcentaje de reprobados:",repro,"%";
+	Escribir "porcentaje de aprobados:",apro,"%";
+	Escribir "porcentaje de notables:",nota,"%";
+	Escribir "porcentaje de sobresalientes:",sobre,"%";
+FinProceso
